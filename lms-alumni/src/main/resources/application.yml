@@ -1,0 +1,14 @@
+server:
+  port: 9013
+
+spring:
+  application:
+    name: LMS-ALUMNI
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+  globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET,POST  
